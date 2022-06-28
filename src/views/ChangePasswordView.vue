@@ -154,9 +154,9 @@ export default {
         return '';
       }
       if (this.newPassword.errors.includes(errorName)) {
-        return '<i class="fa-solid fa-circle-xmark"></i>';
+        return '<i class="fa-solid fa-circle-xmark" style="color:red"></i>';
       } else {
-        return '<i class="fa-solid fa-circle-check"></i>';
+        return '<i class="fa-solid fa-circle-check" style="color:green"></i>';
       }
     }
   },
