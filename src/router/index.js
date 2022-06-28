@@ -10,6 +10,9 @@ const routes = [
     },
     {
         path: '/change-password', name: 'changePasswordView', component: () => import('../views/ChangePasswordView.vue')
+    },
+    {
+        path: '/change-alternate-email', name: 'changeAlternateEmailView', component: () => import('../views/ChangeAlternateEmailView.vue')
     }
 ]
 
