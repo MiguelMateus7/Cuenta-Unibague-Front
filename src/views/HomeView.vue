@@ -58,7 +58,7 @@ export default {
         {
           title: 'Cambiar correo alterno',
           icon: 'fa-solid fa-envelope',
-          to: {name: 'home'}
+          to: {name: 'changeAlternateEmailView'}
         },
         {
           title: 'Perdí acceso a mi correo alterno',
