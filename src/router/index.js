@@ -19,7 +19,7 @@ const routes = [
 
     ,
     {
-        path: '/recover-password', name: 'recoverPassword', component: () => import('../views/RecoverPassword.vue')
+        path: '/recover-password', name: 'recoverPassword', component: () => import('../views/RecoverPasswordView.vue')
     }
 ]
 
