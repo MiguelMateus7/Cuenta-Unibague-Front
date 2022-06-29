@@ -13,6 +13,9 @@ const routes = [
     },
     {
         path: '/change-alternate-email', name: 'changeAlternateEmailView', component: () => import('../views/ChangeAlternateEmailView.vue')
+    },
+    {
+        path: '/recover-password', name: 'recoverPassword', component: () => import('../views/RecoverPassword.vue')
     }
 ]
 

@@ -47,7 +47,7 @@ export default {
         {
           title: 'Recuperar contraseña',
           icon: 'fa-solid fa-unlock',
-          to: {name: 'home'}
+          to: {name: 'recoverPassword'}
         },
         {
           title: 'Olvidé mi usuario',
