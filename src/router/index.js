@@ -17,6 +17,13 @@ const routes = [
     {
         path: '/remember-email', name: 'rememberEmailView', component: () => import('../views/RememberEmailView.vue')
     }
+
+
+
+    ,
+    {
+        path: '/recover-password', name: 'recoverPassword', component: () => import('../views/RecoverPasswordView.vue')
+    }
 ]
 
 const router = new VueRouter({
