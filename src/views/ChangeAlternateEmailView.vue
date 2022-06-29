@@ -93,7 +93,7 @@ export default {
       showForm: true,
       message: 'Ha ocurrido un error. Por favor vuelve a intentarlo',
       email: {
-        value: 'hola'
+        value: ''
       },
       password: {
         value: ''

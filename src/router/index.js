@@ -13,6 +13,9 @@ const routes = [
     },
     {
         path: '/change-alternate-email', name: 'changeAlternateEmailView', component: () => import('../views/ChangeAlternateEmailView.vue')
+    },
+    {
+        path: '/remember-email', name: 'rememberEmailView', component: () => import('../views/RememberEmailView.vue')
     }
 ]
 
